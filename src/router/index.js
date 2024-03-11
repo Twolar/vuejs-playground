@@ -86,6 +86,16 @@ const router = new VueRouter({
       name: "NestingComponents",
       component: () => import("../views/NestingComponentsView.vue"),
     },
+    {
+      path: "/Props",
+      name: "Props",
+      component: () => import("../views/PropsView.vue"),
+    },
+    {
+      path: "/PrimitiveVsReference",
+      name: "PrimitiveVsReference",
+      component: () => import("../views/PrimitiveVsReferenceView.vue"),
+    },
   ],
 });
 
