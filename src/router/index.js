@@ -96,6 +96,11 @@ const router = new VueRouter({
       name: "PrimitiveVsReference",
       component: () => import("../views/PrimitiveVsReferenceView.vue"),
     },
+    {
+      path: "/Slots",
+      name: "Slots",
+      component: () => import("../views/SlotsView.vue"),
+    },
   ],
 });
 

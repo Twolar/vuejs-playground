@@ -73,6 +73,7 @@ export default {
             </li>
             <li><router-link to="/Props">Props</router-link></li>
             <li><router-link to="/PrimitiveVsReference">PrimitiveVsReference</router-link></li>
+            <li><router-link to="/Slots">Slots</router-link></li>
           </ul>
         </nav>
       </div>

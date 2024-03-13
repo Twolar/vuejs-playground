@@ -1,3 +1,8 @@
+<template>
+  <div>
+  </div>
+</template>
+
 <script>
 export default {
   data() {
@@ -10,10 +15,5 @@ export default {
   }
 };
 </script>
-
-<template>
-  <div>
-  </div>
-</template>
 
 <style scoped></style>
